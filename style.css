@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Molle&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Molle&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headfile{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carousel-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 80vh; /* Limit height on larger screens */
+}
+
+/* Enhance carousel controls visibility */
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    width: 10%;
+    border-radius: 0 5px 5px 0;
+}
+
+.carousel-control-next {
+    border-radius: 5px 0 0 5px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-container {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-container {
+        max-width: 80%;
+    }
+}
