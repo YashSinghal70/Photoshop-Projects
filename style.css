@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(26 26 26 / 75%)  !important;
+    color: white !important;
+}
 
 .headfile{
     font-family: "Bagel Fat One", system-ui;
